@@ -17,7 +17,7 @@
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}",
 				"${file}",
-				"${fileDirname}/05-1Inline.cpp"
+				"${fileDirname}/06project.cpp"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
