@@ -1,2 +1,3 @@
 My Project
 study to cpp && data_structure
+code runner >> "cpp": "cd $workspaceRoot/cpp_example/src && $workspaceRoot/cpp_example/src/$fileNameWithoutExt"
