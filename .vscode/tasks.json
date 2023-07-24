@@ -10,7 +10,7 @@
 				"-g",
 				"${fileDirname}/**",
 				"-o",
-				"${workspaceFolder}/cpp_example/src${fileBasenameNoExtension}"
+				"${workspaceFolder}/cpp_example/src/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
