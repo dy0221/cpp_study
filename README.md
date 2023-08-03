@@ -68,17 +68,17 @@ content about this located in notion.
 			"command": "/usr/bin/g++",
 			"args": [
                 // 단독 build >> build하는 folder에 main이 여러개
-                // "-fdiagnostics-color=always",
-				// "-g",
-				// "${workspaceFolder}/*.cpp",
-				// "-o",
-				// "${workspaceFolder}/cpp_example/src/${fileBasenameNoExtension}"
-                // project build
                 "-fdiagnostics-color=always",
 				"-g",
-				"${fileDirname}/**",
+				"${file}",
 				"-o",
 				"${workspaceFolder}/cpp_example/src/${fileBasenameNoExtension}"
+                // project build
+                // "-fdiagnostics-color=always",
+				// "-g",
+				// "${fileDirname}/**",
+				// "-o",
+				// "${workspaceFolder}/cpp_example/src/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
